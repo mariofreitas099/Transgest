@@ -4,8 +4,8 @@ import { createClient } from "@supabase/supabase-js";
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend } from "recharts";
 
 // ─── CONFIG — substitui com os teus dados do Supabase ────────
-const SUPABASE_URL  = https://xxxxxxxxx.supabase.co;
-const SUPABASE_ANON = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtzdWpmbHZqYmpwb3djaW1xcGllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc4ODcxNjAsImV4cCI6MjA5MzQ2MzE2MH0.6kMZqY5c0L969DC83vk3gkp5cUAQYXtt4efd2E_TXQg ;
+const SUPABASE_URL  = "https://xxxxxxxxx.supabase.co";
+const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"."eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtzdWpmbHZqYmpwb3djaW1xcGllIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc4ODcxNjAsImV4cCI6MjA5MzQ2MzE2MH0.6kMZqY5c0L969DC83vk3gkp5cUAQYXtt4efd2E_TXQg" ;
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON);
 
 // ─── UTILS ───────────────────────────────────────────────────
