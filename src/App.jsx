@@ -21,7 +21,7 @@ const fmtDur   = m => m ? `${Math.floor(m/60)}h${String(m%60).padStart(2,"0")}` 
 const mo       = d => d?d.slice(0,7):"";
 
 // ─── CONSTANTS ───────────────────────────────────────────────
-const SVC_TYPES = ["mudança","entrega","last-mile","b2b","outro"];
+const SVC_TYPES = ["mudança residencial","mudança empresarial","entrega last-mile","entrega b2b","orçamento agendado","outro"];
 const SVC_ST    = ["pendente","confirmado","em curso","concluído","cancelado"];
 const DRV_ST    = ["disponível","em serviço","folga","inativo"];
 const VEH_TYPES = ["Carrinha Pequena","Carrinha Média","Carrinha Grande","Camião"];
